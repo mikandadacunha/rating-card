@@ -1,0 +1,12 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+}
+

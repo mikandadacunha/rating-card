@@ -1,0 +1,95 @@
+/*Body reseted*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Card principal*/
+.card{
+    background-color: #202630;
+    width: 380px;
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+/*imagem com estrela*/
+.star{
+    background-color: #272e38;
+    border-radius: 100%;
+    padding: 10px;
+}
+/*titulo de do card*/
+.title{
+    font-size: 28px;
+}
+/*rem de titulo*/
+.text h1{
+padding-bottom: 0.2rem;
+}
+/*descrição do texto rating*/
+.description{
+    font-size: 12px;
+    color: #8b919d;
+    text-align: center;
+}
+
+/*estilização dos buttons*/
+.ratingButton{
+    background-color: #272e38;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+
+}
+.buttonGroup{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ratingButton:hover{
+    background-color: #7c8798;
+}
+.ratingButton:focus{
+    background-color: #f57414;
+}
+
+.submitButton{
+    background-color: #f57414;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.submitButton:hover{
+    background-color: white;
+    color: #f57414;
+}
+
+/*MobilePhone estlização agradecimento*/
+.MobilePhone{
+    width: 150px;
+    display: flex;
+    align-items: center;
+
+}
+.pill{
+    background-color: #272e38;
+    color: #f57414;
+    font-size: 12px;
+    font-weight:400;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.texCenter{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
